@@ -7,7 +7,7 @@ export default function Footer() {
   const resume =
     "https://docs.google.com/document/d/e/2PACX-1vQt386DXS9ZwBWwrqXYtBiM2QAkDziaAeDPfkcPUFlYgOYYnmDWaqMogll2Wa1_VzqjVg4e1QGt-gG2/pub";
   return (
-    <footer className="footer mt-3 p-3 text-center">
+    <footer className="footer p-3 text-center">
       <div className="container">
         <div className="mb-0 d-flex justify-content-center">
           <div className="footer-link">
@@ -21,7 +21,7 @@ export default function Footer() {
             </a>
             <div>Linkedin</div>
           </div>
-          <div className="px-5">
+          <div className="footer-link mx-2 mx-sm-2 mx-md-4">
             <a
               href="https://github.com/dmerk2"
               target="_blank"
@@ -33,15 +33,22 @@ export default function Footer() {
             <div>Github</div>
           </div>
           <div className="footer-link">
-            <a href={resume} className="mx-2">
+            <a
+              href={resume}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mx-2"
+            >
               <IoDocumentTextOutline className="footer-icon" id="resume-icon" />
             </a>
             <div>Resume</div>
           </div>
-        </div>
-        <div>
-          <FaPhone className="phone-icon"/>
-          <a href="tel:6096130059">(609) 613-0059</a>
+          <div className="footer-link mx-2 mx-sm-2 mx-md-4">
+            <a href="tel:6096130059" className="mx-2">
+              <FaPhone className="footer-icon" id="phone-icon" />
+            </a>
+            <div>Phone</div>
+          </div>
         </div>
         <p className="mb-0 pt-2 text-dark">© 2023 Daniel Merkin</p>
       </div>

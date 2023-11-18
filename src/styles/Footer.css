@@ -3,7 +3,7 @@
   height: 40px;
 }
 
-.phone-icon {
+#phone-icon {
   color: black;
   margin-right: 0.3rem;
 }
@@ -20,7 +20,7 @@
   color: var(--text-light-gray);
 }
 
-.footer-icon:hover {
+.footer-link:hover {
   color: #f1c40f;
   transition: color 0.3s ease-in-out;
 }
