@@ -1,3 +1,7 @@
+h1 {
+  color: #f1c40f;
+}
+
 .jumbotron {
   background-image: url('../assets/background2.jpg');
   background-size: cover;
