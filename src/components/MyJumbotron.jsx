@@ -6,17 +6,17 @@ import "../styles/MyJumbotron.css";
 
 const MyJumbotron = () => {
   const { height } = useSpring({
-    from: { height: "50px" },
+    from: { height: "0" },
     to: { height: "150px" },
     config: { duration: 1000 },
   });
 
   return (
     <div className="jumbotron p-5 text-center d-flex align-items-center">
-      <Container fluid>
+      <Container>
         <Row>
           <Col>
-            <animated.div style={{ height, overflow: "hidden" }}>
+            <animated.div style={{ height }}>
               <h1>Full Stack Web Developer</h1>
               <p>
                 Hi, I am Daniel Merkin, a passionate web developer with

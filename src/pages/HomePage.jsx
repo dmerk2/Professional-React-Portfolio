@@ -4,7 +4,7 @@ import Contact from "../components/Contact";
 import Skills from "../components/Skills";
 import Footer from "../components/Footer";
 import About from "../components/About";
-import Portfolio from "../components/Portfolio";
+import Portfolio from "./Portfolio";
 
 function HomePage() {
   return (

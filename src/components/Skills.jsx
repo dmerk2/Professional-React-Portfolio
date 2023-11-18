@@ -1,9 +1,10 @@
 import { FaReact } from "react-icons/fa";
+import "../styles/Skills.css";
 
 function Skills() {
   return (
-    <div>
-      <h2 id="skills">Skills</h2>
+    <div className="skills-section" id="skills">
+      <h2>Skills</h2>
       <FaReact />
     </div>
   );
