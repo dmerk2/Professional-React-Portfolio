@@ -1,0 +1,7 @@
+.profile-picture {
+  width: 18rem;
+  height: 18rem;
+  border-radius: 50%;
+  padding: 0.3rem;
+  border: 1px solid black;
+}

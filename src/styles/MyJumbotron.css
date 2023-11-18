@@ -1,0 +1,25 @@
+.jumbotron {
+  background-image: url('../assets/background2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+  color: white;
+  height: 60vh;
+}
+
+.contact-button {
+  background: var(--primary-blue);
+  outline: none;
+}
+
+.btn:hover {
+  background-color: #f1c40f;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.mail-icon {
+  color: black;
+  font-size: 1.2rem;
+  margin-right: 5px;
+}
