@@ -49,7 +49,7 @@ function Skills() {
       <h2>Skills</h2>
       <div className="row">
         {icons.map(({ icon, text }, index) => (
-          <div key={index} className={`col-md-4 ${index % 2 === 0 ? 'even-icon' : 'odd-icon'}`}>
+          <div key={index} className={`col-md-4 skills-container ${index % 2 === 0 ? 'even-icon' : 'odd-icon'}`}>
             <div className="icon-container">
               {icon}
               <div className="icon-text">{text}</div>
