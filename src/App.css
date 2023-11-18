@@ -1,0 +1,48 @@
+:root {
+  --primary-blue: #5dadb3;
+  --secondary-blue: #2980b9;
+  --primary-green: #2ecc71;
+  --secondary-green: #27ae60;
+  --accent-orange: #e67e22;
+  --accent-yellow: #f1c40f;
+  --text-light-gray: #ecf0f1;
+  --background-off-white: #ecf0f1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  letter-spacing: 1.5px;
+  background-color: var(--background-off-white);
+}
+
+.scroll-to-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--primary-blue);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  padding: 15px;
+  cursor: pointer;
+  display: none;
+}
+
+.scroll-to-top-button.visible {
+  display: block;
+  background-color: #f1c40f;
+}
+
+.scroll-to-top-button:hover {
+  color: black
+}
