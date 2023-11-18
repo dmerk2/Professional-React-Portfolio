@@ -1,5 +1,6 @@
 import { Card, Button } from "react-bootstrap";
 import { FaGithub } from "react-icons/fa";
+import { CgWebsite } from "react-icons/cg";
 
 import "../styles/Project.css";
 
@@ -13,10 +14,11 @@ const Project = ({ title, description, image, link, repo }) => {
         <Card.Text>{description}</Card.Text>
         <div className="button-container">
           <Button href={link} target="_blank" rel="noopener noreferrer">
+            <CgWebsite className="icon m-1"/>
             Demo
           </Button>
           <Button href={repo} target="_blank" rel="noopener noreferrer">
-            <FaGithub /> Github
+            <FaGithub className="icon"/> Github
           </Button>
         </div>
       </Card.Body>

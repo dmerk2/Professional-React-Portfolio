@@ -2,3 +2,43 @@
   background-color: #f4f4f4;
   padding: 2rem;
 }
+
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.even-icon svg,
+.odd-icon svg {
+  color: var(--text-light-gray);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.even-icon svg:hover,
+.odd-icon svg:hover {
+  transform: scale(1.2);
+}
+
+.even-icon svg {
+  background: #f1c40f;
+}
+
+.odd-icon svg {
+  background: var(--primary-blue);
+}
+
+.icon-text {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 767px) {
+  .col-md-4 {
+    flex-basis: calc(50% - 20px);
+  }
+}

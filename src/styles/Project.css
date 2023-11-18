@@ -21,7 +21,7 @@
   flex-direction: column;
   height: 100%;
   padding: 10px;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .card-text {
@@ -48,6 +48,12 @@
 .button-container a {
   margin-bottom: 10px;
   text-align: center;
+  background: var(--primary-blue);
+  outline: none;
+}
+
+.icon {
+  color: black;
 }
 
 @media (max-width: 767px) {

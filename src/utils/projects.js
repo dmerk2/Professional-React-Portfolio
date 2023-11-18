@@ -2,7 +2,7 @@
 // import NowWereCookin from "../assets/recipe_blog.png";
 // import ComfyCafe from "../assets/comfy_cafe.png";
 // import CodingQuiz from "../assets/coding-quiz.png";
-// import TextEditor from "../assets/text-editor.png";
+import TextEditor from "../assets/text-editor.png";
 // import WeatherForecast from "../assets/weather-forecast.png";
 const placeholderImageUrl = 'https://via.placeholder.com/150';
 
@@ -21,7 +21,7 @@ const projects = [
       "The JATE Text Editor is a powerful web application designed for writing and editing code.",
     link: "https://evening-sea-02025-d78ee56e0095.herokuapp.com/",
     repo: "https://github.com/dmerk2/PWA-Text-Editor",
-    image: placeholderImageUrl,
+    image: TextEditor,
   },
   {
     title: "Dog Finder",
