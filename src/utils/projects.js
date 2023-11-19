@@ -1,19 +1,19 @@
-// import DogFinder from "../assets/dog-finder.png";
-// import NowWereCookin from "../assets/recipe_blog.png";
-// import ComfyCafe from "../assets/comfy_cafe.png";
-// import CodingQuiz from "../assets/coding-quiz.png";
+import DogFinder from "../assets/dogfinder.jpg";
+import NowWereCookin from "../assets/nowwerecookin.jpg";
+import ComfyCafe from "../assets/comfy_cafe.jpg";
+import CodingQuiz from "../assets/coding-quiz.jpg";
 import TextEditor from "../assets/text-editor.png";
-// import WeatherForecast from "../assets/weather-forecast.png";
+import WeatherForecast from "../assets/weather-forecast.png";
 const placeholderImageUrl = 'https://via.placeholder.com/150';
 
 const projects = [
   {
     title: "Now We're Cooking",
     description:
-      "Secure and user-friendly recipe blogging site with advanced security features, inviting users to share, discover, and engage in a vibrant culinary community.",
+      "Secure and user-friendly recipe blogging site with advanced security features.",
     link: "https://nowwerecooking-494c285649f9.herokuapp.com/",
     repo: "https://github.com/RobKaiser97/Recipe-Blog",
-    image: placeholderImageUrl,
+    image: NowWereCookin,
   },
   {
     title: "PWA Text Editor",
@@ -26,33 +26,33 @@ const projects = [
   {
     title: "Dog Finder",
     description:
-      "A platform for individuals interested in adopting dogs, offering valuable information about specific dog breeds to facilitate informed adoption decisions.",
+      "A platform for individuals interested in adopting dogs, offering valuable information about specific dog breeds.",
     link: "https://dmerk2.github.io/Dog-Finder/",
     repo: "https://github.com/dmerk2/Dog-Finder",
-    image: placeholderImageUrl,
+    image: DogFinder,
   },
   {
     title: "Coding Quiz",
     description:
-      "Embark on a coding challenge with a timed multiple-choice quiz, and witness your final score recorded on the high scores page.",
+      "A timed multiple-choice quiz with your final score recorded on the high scores page.",
     link: "https://dmerk2.github.io/Coding-Quiz/",
     repo: "https://github.com/dmerk2/Coding-Quiz",
-    image: placeholderImageUrl,
+    image: CodingQuiz,
   },
   {
     title: "Comfy Cafe",
-    description: "Description",
+    description: "A simple landing page website to display comfy cafes site",
     link: "https://dmerk2.github.io/comfy-cafe/",
-    repo: "",
-    image: placeholderImageUrl,
+    repo: "https://github.com/dmerk2/comfy-cafe",
+    image: ComfyCafe,
   },
   {
     title: "Weather Forecast Dashboard",
     description:
-      "A user-friendly weather dashboard application that enables users to input a city, view current weather conditions, and access a 5-day forecast",
+      "A weather app to input a city and view the current weather and 5-day forecast.",
     link: "https://dmerk2.github.io/Weather-Forecast-Dashboard/",
     repo: "https://github.com/dmerk2/Weather-Forecast-Dashboard",
-    image: placeholderImageUrl,
+    image: WeatherForecast,
   },
 ];
 
