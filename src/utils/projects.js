@@ -1,12 +1,27 @@
 import DogFinder from "../assets/dogfinder.jpg";
 import NowWereCookin from "../assets/nowwerecookin.jpg";
-import ComfyCafe from "../assets/comfy_cafe.jpg";
 import CodingQuiz from "../assets/coding-quiz.jpg";
 import TextEditor from "../assets/text-editor.png";
-import WeatherForecast from "../assets/weather-forecast.png";
-const placeholderImageUrl = 'https://via.placeholder.com/150';
+import GoogleBooks from "../assets/googlebookssearch.png";
+import BranchOut from "../assets/Home-Page-Logged-In.png"
 
 const projects = [
+  {
+    title: "Branch Out",
+    description:
+      "A MERN stack application serving as a dedicated social media platform designed for web developers.",
+    link: "https://dmerk2.github.io/comfy-cafe/",
+    repo: "https://branch-out-web-service.onrender.com/",
+    image: BranchOut,
+  },
+  {
+    title: "Google Book Search",
+    description:
+      "A MERN stack application enabling users to log in, save favorite books, and retrieve them effortlessly",
+    link: "https://shielded-beyond-73145-20d419db12a1.herokuapp.com/",
+    repo: "https://github.com/dmerk2/Book-Search-Engine",
+    image: GoogleBooks,
+  },
   {
     title: "Now We're Cooking",
     description:
@@ -38,21 +53,6 @@ const projects = [
     link: "https://dmerk2.github.io/Coding-Quiz/",
     repo: "https://github.com/dmerk2/Coding-Quiz",
     image: CodingQuiz,
-  },
-  {
-    title: "Comfy Cafe",
-    description: "A simple landing page website to display comfy cafes site",
-    link: "https://dmerk2.github.io/comfy-cafe/",
-    repo: "https://github.com/dmerk2/comfy-cafe",
-    image: ComfyCafe,
-  },
-  {
-    title: "Weather Forecast Dashboard",
-    description:
-      "A weather app to input a city and view the current weather and 5-day forecast.",
-    link: "https://dmerk2.github.io/Weather-Forecast-Dashboard/",
-    repo: "https://github.com/dmerk2/Weather-Forecast-Dashboard",
-    image: WeatherForecast,
   },
 ];
 
