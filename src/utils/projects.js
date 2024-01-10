@@ -10,7 +10,7 @@ const projects = [
     title: "Branch Out",
     description:
       "A MERN stack application serving as a dedicated social media platform designed for web developers.",
-    link: "https://dmerk2.github.io/comfy-cafe/",
+    link: "https://github.com/dmerk2/Branch-Out",
     repo: "https://branch-out-web-service.onrender.com/",
     image: BranchOut,
   },
