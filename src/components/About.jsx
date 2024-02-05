@@ -1,5 +1,5 @@
 import { Container, Row, Col, Image } from "react-bootstrap";
-import profilePic from "../assets/profile-image.png";
+import profilePic from "../assets/pro-headshot.jpg";
 import "../styles/About.css";
 
 const About = () => {
