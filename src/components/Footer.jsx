@@ -1,11 +1,10 @@
 import { FaLinkedin, FaGithub, FaPhone } from "react-icons/fa";
 import { IoDocumentTextOutline } from "react-icons/io5";
-
 import "../styles/Footer.css";
 
 export default function Footer() {
   const resume =
-    "https://docs.google.com/document/d/e/2PACX-1vQt386DXS9ZwBWwrqXYtBiM2QAkDziaAeDPfkcPUFlYgOYYnmDWaqMogll2Wa1_VzqjVg4e1QGt-gG2/pub";
+    "https://my.visualcv.com/daniel-merkin/";
   return (
     <footer className="footer p-3 text-center">
       <div className="container">
